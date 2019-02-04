@@ -188,10 +188,16 @@ header nav a {
   text-align: center;
   padding: 5%;
 }
+header nav a:hover {
+  cursor: pointer;
+  color: #ff3366;
+}
 @media (min-width: 1000px) {
   header nav a {
     width: 20%;
     border-bottom: none;
+    padding: 0;
+    margin-top: 5%;
   }
 }
 @media (min-width: 1000px) {

@@ -201,6 +201,12 @@ header nav a {
     justify-content: space-between;
   }
 }
+@media (min-width: 1000px) {
+  header {
+    width: 98%;
+    margin: 0 1%;
+  }
+}
 .container {
   width: 100%;
   margin-bottom: 20px;
@@ -227,7 +233,7 @@ header nav a {
 }
 @media (min-width: 1000px) {
   .container .top-container .top-section p {
-    font-size: 2rem;
+    font-size: 2.4rem;
     padding: 30px 0 80px 0;
   }
 }
@@ -235,6 +241,12 @@ header nav a {
   .container .top-container .top-section {
     width: 800px;
     margin-left: 200px;
+  }
+}
+@media (min-width: 1000px) {
+  .container .top-container {
+    width: 98%;
+    margin: 0 1%;
   }
 }
 .container .content-container {
@@ -254,6 +266,9 @@ header nav a {
     justify-content: space-between;
   }
 }
+.container .content-container .main-content h2 {
+  margin-bottom: 8%;
+}
 @media (min-width: 1000px) {
   .container .content-container .main-content h2 {
     font-size: 8rem;
@@ -267,6 +282,8 @@ header nav a {
 @media (min-width: 1000px) {
   .container .content-container .main-content .main-content1 h3 {
     width: 100%;
+    padding-bottom: 20px;
+    font-size: 3rem;
   }
 }
 @media (min-width: 1000px) {
@@ -275,9 +292,15 @@ header nav a {
     margin-bottom: 40px;
   }
 }
+@media (min-width: 1000px) {
+  .container .content-container {
+    width: 98%;
+    margin: 0 1%;
+  }
+}
 .container button {
   height: 40px;
-  width: 80%;
+  width: 100%;
   background-color: #ff3366;
   color: white;
   font-size: 1.8rem;
@@ -315,5 +338,6 @@ header nav a {
     width: 250px;
     height: 50px;
     border-radius: 40px;
+    font-size: 2rem;
   }
 }

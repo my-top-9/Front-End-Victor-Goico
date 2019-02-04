@@ -23,7 +23,7 @@
         color: white;
 
         @media @desktop {
-          font-size: 2rem;
+          font-size: 2.4rem;
           padding: 30px 0 80px 0;
         }
       }
@@ -32,6 +32,11 @@
         width: 800px;
         margin-left: 200px;
       }
+    }
+
+    @media @desktop {
+      width: 98%;
+      margin: 0 1%;
     }
   }
   .content-container {
@@ -51,6 +56,8 @@
       }
 
       h2 {
+        margin-bottom: 8%;
+
         @media @desktop {
           font-size: 8rem;
           width: 100%;
@@ -67,6 +74,8 @@
         h3 {
           @media @desktop {
             width: 100%;
+            padding-bottom: 20px;
+            font-size: 3rem;
           }
         }
 
@@ -76,9 +85,14 @@
          }
        }
     }
+
+    @media @desktop {
+      width: 98%;
+      margin: 0 1%;
+    }
   }
 
   button {
-    .custom-button(80%, 40px, white, @custom-pink);
+    .custom-button(100%, 40px, white, @custom-pink);
   }
 }

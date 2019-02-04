@@ -135,15 +135,23 @@ body {
   font-size: 62.5%;
   /* 10px if the browser was 16px*/
   /* 1rem === 10px @ medium browser settings */
+  font-family: 'Poppins', sans-serif;
 }
 h1 {
   font-size: 3.6rem;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 h2 {
   font-size: 3.2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
 }
 h3 {
   font-size: 2.6rem;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  font-weight: bold;
 }
 a {
   font-size: 1.6rem;
@@ -173,10 +181,18 @@ header nav a {
   padding: 20px 0px;
 }
 .container .top-section {
+  width: 100%;
   padding: 10% 0;
 }
+.container .top-section p {
+  padding: 0 0 20px 0;
+}
 .container .main-content {
+  width: 100%;
   padding: 10% 0;
+}
+.container .main-content p {
+  padding: 20px 0 20px 0;
 }
 .container button {
   height: 40px;

@@ -194,10 +194,10 @@ header nav a:hover {
 }
 @media (min-width: 500px) {
   header nav a {
-    width: 20%;
+    width: auto;
     border-bottom: none;
     padding: 0;
-    margin-top: 5%;
+    align-self: flex-end;
   }
 }
 @media (min-width: 1000px) {
@@ -205,6 +205,8 @@ header nav a:hover {
     width: 60%;
     flex-wrap: nowrap;
     justify-content: space-between;
+    height: 100px;
+    padding: 0;
   }
 }
 @media (min-width: 1000px) {
@@ -265,11 +267,11 @@ header nav a:hover {
 }
 @media (min-width: 1000px) {
   .container .content-container .main-content {
-    width: 85%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 10% 0 10% 0%;
+    padding: 10% 0% 10% 0%;
     margin-left: 15%;
   }
 }
@@ -296,7 +298,7 @@ header nav a:hover {
 @media (min-width: 1000px) {
   .container .content-container .main-content .main-content-div {
     max-width: 600px;
-    margin: 0px 10% 40px 0px;
+    margin: 0px 0px 40px 0px;
   }
 }
 .container .content-container .main-content .button-container {

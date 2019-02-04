@@ -42,13 +42,38 @@
       width: 100%;
       padding: 10% 5%;
 
-       p {
-         padding: 20px 0 20px 0;
-       }
+      @media @desktop {
+        margin-left: 200px;
+        width: 1600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
 
-       @media @desktop {
-         margin-left: 200px;
-         width: 1200px;
+      h2 {
+        @media @desktop {
+          font-size: 8rem;
+          width: 100%;
+          margin-bottom: 60px;
+        }
+      }
+
+      .main-content1 {
+
+        p {
+          padding: 20px 0 20px 0;
+        }
+
+        h3 {
+          @media @desktop {
+            width: 100%;
+          }
+        }
+
+        @media @desktop {
+           width: 600px;
+           margin-bottom: 40px;
+         }
        }
     }
   }

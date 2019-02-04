@@ -10,6 +10,10 @@ header {
 
     .home {
       border-top: 2px solid white;
+
+      @media @desktop {
+        border-top: none;
+      }
     }
 
     a {
@@ -20,6 +24,16 @@ header {
       align-self: center;
       text-align: center;
    		padding: 5%;
+
+      @media @desktop {
+        width: 20%;
+        border-bottom: none;
+      }
+     }
+
+     @media @desktop {
+       flex-wrap: nowrap;
+       justify-content: space-between;
      }
   }
 }

@@ -8,7 +8,9 @@ const scene = new ScrollMagic.Scene({
 
 const tl2 = new TimelineMax();
 
-tl2.from(".main-content.b", 1, {x: 800, opacity: 0, ease: Power4.easeOut});
+tl2.from(".main-content.b p, .main-content.b h3", 1, {x: -800, opacity: 0, ease: Power4.easeOut});
+tl2.from(".main-content.b h2", 1, {y: -200, opacity: 0, ease: Power4.easeOut})
+tl2.from(".carousel, .main-content.b button", 1.4, {y: 400, x: 200, opacity: 0, ease: Power4.easeOut})
 const scene2 = new ScrollMagic.Scene({
   triggerElement: ".main-content.b"
 }).setTween(tl2).addTo(controller);

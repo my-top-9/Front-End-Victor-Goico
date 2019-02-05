@@ -75,7 +75,7 @@ class Carousel {
   }
 }
 
-let carousel = document.querySelector('.carousel');
+const carousel = document.querySelector('.carousel');
 new Carousel(carousel);
 
 /* If You've gotten this far, you're on your own! Although we will give you some hints:

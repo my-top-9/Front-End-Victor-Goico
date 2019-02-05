@@ -367,14 +367,14 @@ header nav a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  height: 500px;
   position: relative;
   overflow: hidden;
-  margin: 16px auto 60px auto;
+  margin: 16px auto 30px auto;
 }
 @media (min-width: 1000px) {
   .carousel {
-    width: 1200px;
+    max-width: 1200px;
+    margin: 16px auto 60px auto;
   }
 }
 .carousel .left-button,
@@ -388,8 +388,8 @@ header nav a:hover {
   font-size: 40px;
   border-radius: 50%;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   cursor: pointer;
 }
 .carousel .left-button:hover,
@@ -397,6 +397,13 @@ header nav a:hover {
   color: #ff3366;
   background-color: white;
   border: 2px solid #ff3366;
+}
+@media (min-width: 500px) {
+  .carousel .left-button,
+  .carousel .right-button {
+    width: 50px;
+    height: 50px;
+  }
 }
 .carousel .left-button {
   top: 50%;

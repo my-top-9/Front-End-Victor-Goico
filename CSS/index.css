@@ -218,6 +218,7 @@ header nav a:hover {
 .container {
   width: 100%;
   margin-bottom: 20px;
+  overflow: hidden;
 }
 .container .top-container {
   background-color: #5917b1;
@@ -307,7 +308,7 @@ header nav a:hover {
 @media (min-width: 1000px) {
   .container .content-container {
     width: 98%;
-    margin: 0 1%;
+    margin: 0 auto;
   }
 }
 .container .content-container.b {

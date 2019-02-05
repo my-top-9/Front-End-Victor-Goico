@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>My Top Nine</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width" initial-scale=1>
     <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <title>My Top Nine</title>
+    <script src="./scripts/carousel.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -52,6 +54,14 @@
           <div class="main-content-div">
             <h3>Sample Text</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div class="carousel">
+            <div class="left-button"><</div>
+            <img class= "active-img" src="./carousel/mountains.jpeg" />
+            <img class= "active-img" src="./carousel/computer.jpeg" />
+            <img src="./carousel/trees.jpeg" />
+            <img src="./carousel/turntable.jpeg" />
+            <div class="right-button">></div>
           </div>
           <div class="button-container">
             <button type="button" name="button">Learn More</button>

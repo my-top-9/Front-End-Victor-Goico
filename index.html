@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width" initial-scale=1>
     <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-    <script src="./scripts/carousel.js" async></script>
+    <script src="./carousel/carousel.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
   </head>
   <body>
     <div class="container">
+
+      <!--Header-->
       <div class="header-container">
         <header>
           <nav>
@@ -21,6 +23,8 @@
           </nav>
         </header>
       </div>
+
+      <!--Top Content-->
       <div class="top-container">
         <section class="top-section">
           <h1>My Top Nine</h1>
@@ -28,6 +32,8 @@
           <button type="button" name="button">Sign Up</button>
         </section>
       </div>
+
+      <!--Main Content-->
       <div class="content-container a">
         <section class="main-content">
           <h2>Sample Text</h2>
@@ -44,6 +50,8 @@
           </div>
         </section>
       </div>
+
+      <!--Main Content 2-->
       <div class="content-container b">
         <section class="main-content">
           <h2>Sample Text</h2>
@@ -55,12 +63,17 @@
             <h3>Sample Text</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
+
+          <!--Carousel Component-->
           <div class="carousel">
             <div class="left-button"><</div>
-            <img class= "active-img" src="./carousel/mountains.jpeg" />
-            <img class= "active-img" src="./carousel/computer.jpeg" />
-            <img src="./carousel/trees.jpeg" />
-            <img src="./carousel/turntable.jpeg" />
+            <img class= "active-img" src="./carousel/images/mountains.jpeg">
+            <img class= "active-img" src="./carousel/images/computer.jpeg">
+            <img src="./carousel/images/city-dark.jpg">
+            <img src="./carousel/images/art-astronomy.jpg">
+            <img src="./carousel/images/trees.jpeg" >
+            <img src="./carousel/images/brooklyn-bridge.jpg">
+            <img src="./carousel/images/turntable.jpeg">
             <div class="right-button">></div>
           </div>
           <div class="button-container">

@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <script src="./carousel/carousel.js" async></script>
     <script src="script.js" async></script>
+    <script src="Tabs.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
@@ -52,6 +53,37 @@
           <div class="button-container">
             <button type="button" name="button">Learn More</button>
           </div>
+            <!-- Tabs Component -->
+          <div class="tabs">
+              <div class="topics">
+                <div data-tab="all" class="tab active-tab">ALL</div>
+                <div data-tab="Jayce" class="tab">Jace</div>
+                <div data-tab="Tyler" class="tab">Tyler</div>
+                <div data-tab="Carolyn" class="tab">Carolyn</div>
+              </div>
+          </div>
+
+          <!--- Card Components -->
+            <div class="card" data-tab="Jayce">
+              <p>ES8: The Next Step in the Evolution of Javascript and What it Means For Your Projects</p>
+                <div class="img-container">
+                  <img>
+                </div>
+            </div>
+
+            <div class="card" data-tab="Tyler">
+              <p>Type Coercion: Why Does NaN !== NaN? and Other Strange Occurrences</p>
+                <div class="img-container">
+                  <img src="" />
+                </div>
+            </div>
+
+            <div class="card" data-tab="Carolyn">
+              <p>Bootstrap 5: Get a Sneak Peak at all the New Features</p>
+                <div class="img-container">
+                  <img src="" />
+                </div>
+            </div>
         </section>
       </div>
 
@@ -86,7 +118,7 @@
         </section>
       </div>
 
-      
+
     </div>
   </body>
 </html>

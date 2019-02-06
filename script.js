@@ -14,3 +14,7 @@ tl2.from(".carousel, .main-content.b button", 1.4, {y: 400, x: 200, opacity: 0, 
 const scene2 = new ScrollMagic.Scene({
   triggerElement: ".main-content.b"
 }).setTween(tl2).addTo(controller);
+
+const tl3 = new TimelineMax();
+
+tl3.from("header nav a, .top-section", 1.2, {opacity: 0});

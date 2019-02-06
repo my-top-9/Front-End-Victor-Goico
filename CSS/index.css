@@ -276,6 +276,9 @@ header nav a:hover {
     margin-left: 15%;
   }
 }
+.container .content-container .main-content .meet {
+  margin-bottom: 0%;
+}
 .container .content-container .main-content h2 {
   margin-bottom: 8%;
 }
@@ -439,7 +442,7 @@ header nav a:hover {
   flex-direction: row;
   flex-wrap: wrap;
 }
-@media (min-width: 500px) {
+@media (min-width: 1000px) {
   .tabs .topics {
     display: flex;
     justify-content: space-between;
@@ -467,7 +470,7 @@ header nav a:hover {
 .tabs .topics .tab p {
   font-size: 3.4rem;
 }
-@media (min-width: 500px) {
+@media (min-width: 1000px) {
   .tabs .topics .tab {
     margin: 0 5px;
   }
@@ -476,6 +479,22 @@ header nav a:hover {
   background-color: white;
   color: #5917b1;
   border: 3px solid #5917b1;
+}
+.tabs.about {
+  margin-top: 20px;
+}
+@media (min-width: 1000px) {
+  .tabs.about {
+    margin-top: 70px;
+  }
+}
+@media (min-width: 1000px) {
+  .tabs.about .topics.about {
+    flex-wrap: wrap;
+  }
+}
+.tabs.about .topics.about .tab {
+  margin: 10px 5px;
 }
 .cards-container {
   display: flex;

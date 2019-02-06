@@ -4,7 +4,11 @@ class TabLink {
 
     this.tabData = this.tabElement.dataset.tab;
 
-    this.cards = document.querySelectorAll(`.card[data-tab='${this.tabData}']`);
+    if (this.tabData === 'all') {
+      this.cards = document.querySelectorAll('.card');
+    } else {
+      this.cards = document.querySelectorAll(`.card[data-tab='${this.tabData}']`);
+    }
 
     this.cards = Array.from(this.cards).map(card => new TabCard(card));
 

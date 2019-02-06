@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <script src="./carousel/carousel.js" async></script>
     <script src="script.js" async></script>
-    <script src="Tabs.js" async></script>
+    <script src="./Tabs/Tabs.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js"> </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
@@ -56,15 +56,17 @@
             <!-- Tabs Component -->
           <div class="tabs">
               <div class="topics">
-                <div data-tab="Jayce" class="tab active-tab"><p>Jace</p></div>
+                <div data-tab="all" class="tab active-tab"><p>ALL</p></div>
+                <div data-tab="Jayce" class="tab"><p>Jace</p></div>
                 <div data-tab="Tyler" class="tab"><p>Tyler</p></div>
                 <div data-tab="Carolyn" class="tab"><p>Carolyn</p></div>
               </div>
           </div>
 
-          <!--- Card Components -->
+          <!--- Card Component -->
           <div class="cards-container">
             <div class="card" data-tab="Jayce">
+              <h3>Meet Jayce!</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="img-container">
                   <img src="Tabs/images/jace.jpeg">
@@ -72,6 +74,7 @@
             </div>
 
             <div class="card" data-tab="Tyler">
+              <h3>Meet Tyler!</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="img-container">
                   <img src="Tabs/images/tyler.jpeg">
@@ -79,6 +82,7 @@
             </div>
 
             <div class="card" data-tab="Carolyn">
+              <h3>Meet Carolyn!</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="img-container">
                   <img src="Tabs/images/carolyn.jpeg">

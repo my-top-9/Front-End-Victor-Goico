@@ -1,0 +1,28 @@
+footer {
+  width: 100%;
+  padding: 10% 5%;
+  .flex(center, none, row);
+
+  nav {
+    .flex(space-between);
+    width: 100%;
+
+    a {
+      text-decoration: none;
+      color: black;
+
+      &:hover {
+        color: @custom-pink;
+      }
+    }
+
+    @media @desktop {
+      width: 50%;
+    }
+  }
+
+  @media @desktop {
+    padding: 80px 5%;
+    justify-content: flex-start;
+  }
+}

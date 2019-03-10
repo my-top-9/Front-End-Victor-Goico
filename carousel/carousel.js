@@ -39,7 +39,7 @@ class Carousel {
         break;
       }
     }
-    images.forEach( img => TweenMax.from(img, 1, {x: img.width, ease:Power3.easeOut}));
+    images.forEach( img => img.classList.contains('active-img') ? TweenMax.from(img, .8, {x: img.width, ease:Power3.easeOut}) : img.style.x !==0 ? TweenMax.to(img, .01, {x:0}) : null );
   }
   leftButtonPress() {
     const images = this.images;
@@ -71,7 +71,7 @@ class Carousel {
         break;
       }
     }
-    images.forEach( img => TweenMax.from(img, 1, {x: -img.width, ease:Power3.easeOut}));
+    images.forEach( img => img.classList.contains('active-img') ? TweenMax.from(img, .8, {x: -img.width, ease:Power3.easeOut}) : img.style.x !== 0 ? TweenMax.to(img, .01, {x:0}) : null );
   }
 }
 
